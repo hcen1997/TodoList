@@ -18,6 +18,8 @@ public class TodoList extends Activity {
         // enable javascript
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        // enable localstorage
+        webSettings.setDomStorageEnabled(true);
 
         String url = "file:///android_asset/index.html";
         myWebView.loadUrl(url);

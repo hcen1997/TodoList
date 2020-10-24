@@ -6,7 +6,7 @@
 
     <groupId>org.hcen</groupId>
     <artifactId>TodoList</artifactId>
-    <version>1.0.1</version>
+    <version>3.14</version>
     <packaging>apk</packaging>
     <description>a todo list project</description>
     <name>TodoList</name>
@@ -14,6 +14,7 @@
         <!-- at test time this will be overridden with snapshot version -->
         <it-plugin.version>4.4.1</it-plugin.version>
         <android.sdk.path>/home/hcen/android/sdk</android.sdk.path>
+        <android.deployapk.filename>target/TodoList-3.14.apk</android.deployapk.filename>
     </properties>
     <dependencies>
         <dependency>
