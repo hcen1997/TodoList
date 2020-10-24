@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebTemp</string>
+	<string id="Info" name="Info">This app is code on a linux machine language english by a chinese man.
+		Compiled and Package using Maven and IntelliJ IDEA, transport by $(ftp), using Vue and Java.
+		So fuck Microsoft and Google.
+	</string>
+</resources>
