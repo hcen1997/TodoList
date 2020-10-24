@@ -1,14 +1,17 @@
-package org.hcen.android.webtemp;
+package org.hcen.android.TodoList;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Window;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class WebTemp extends Activity {
+public class TodoList extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         WebView myWebView = new WebView(this.getApplicationContext());
         setContentView(myWebView);

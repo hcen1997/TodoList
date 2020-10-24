@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.hcen</groupId>
-    <artifactId>AndroidWebTemp</artifactId>
-    <version>1.0.0</version>
+    <artifactId>TodoList</artifactId>
+    <version>1.0.1</version>
     <packaging>apk</packaging>
-    <description>this app open a page to http://example.com</description>
-    <name>AndroidWebTemp</name>
+    <description>a todo list project</description>
+    <name>TodoList</name>
     <properties>
         <!-- at test time this will be overridden with snapshot version -->
         <it-plugin.version>4.4.1</it-plugin.version>
