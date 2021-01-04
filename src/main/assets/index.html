@@ -72,13 +72,13 @@
                    :class="{ selected: visibility == 'completed' }">Completed</a>
             </li>
         </ul>
-        <button
-                class="clear-completed"
-                @click="removeCompleted"
-                v-show="todos.length > remaining"
-        >
-            Clear completed
-        </button>
+<!--        <button-->
+<!--                class="clear-completed"-->
+<!--                @click="removeCompleted"-->
+<!--                v-show="todos.length > remaining"-->
+<!--        >-->
+<!--            Clear completed-->
+<!--        </button>-->
     </footer>
 </section>
 <footer class="info">
@@ -219,9 +219,9 @@
                 todo.title = this.beforeEditCache;
             },
 
-            removeCompleted: function () {
-                this.todos = filters.active(this.todos);
-            }
+            // removeCompleted: function () {
+            //     this.todos = filters.active(this.todos);
+            // }
         },
 
         // a custom directive to wait for the DOM to be updated
